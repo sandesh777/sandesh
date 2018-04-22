@@ -222,7 +222,7 @@ footer{
  .social {
  	
  	justify-content: center;
- 	position: absolute
+ 	position: absolute;
  	flex-direction: right;/* display flex was given direction */
  	margin: 500px; /* margin was added */
 
@@ -243,7 +243,7 @@ footer{
 
 }
 
-.wow{
+.wo{
     margin-top: 5%; /* margin was added */
 
  	
