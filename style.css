@@ -1,0 +1,276 @@
+
+body{ /* here is body */
+	
+	background: url('computer.png') no-repeat; /* background was formed */
+	background-size: cover; /* background was formed */
+	font-size: 30px; /* font was set */
+}
+
+
+
+header{
+	display: flex; /* display flex was added */
+	
+ box-shadow: 2px 7px 5px 0px rgba(212,195,212,1);
+ width: 100%;/* width was set */
+ justify-content: space-between; /*space is maintain*/
+ margin-bottom: 20px; /* margin was added */
+
+}
+.logo{
+	margin-left: 20px;
+}
+.logo img{
+	border-radius: 50%; /*radius is maintained*/
+	box-shadow: 2px 7px 5px 0px rgba(212,195,212,1); /* keeps the shadow */
+	animation:sandesh 2s infinite;
+
+}
+
+@keyframes sandesh{
+from{
+
+}
+to{
+	transform: rotate(360deg);
+}
+
+}
+
+.menu{
+	
+	margin-top: 25px;  /* margin was added */
+
+	font-color: white; /* font color is added*/
+
+}
+
+nav ul{
+	display: flex;/* display flex was added */
+	margin-top: 5px; /* margin was added */
+
+}
+nav ul li{
+	list-style: none;
+	padding-right: 40px; /* padding is added */
+	
+}
+nav ul li a{
+	text-decoration: none;
+	padding: 20px; /* padding is added */
+	margin-top: 5px; /* margin was added */
+
+	color: teal; /* color was added */
+	font-size: 20px; /*font sixe is added*/
+
+}
+form{
+	color: teal; /* color was added */
+	text-align: left; /* text align is given left*/
+}
+
+
+a:hover{
+	border-bottom: 5px solid gold;
+
+}
+.bisham{
+ 	margin-top: 17%; /* margin was added */
+
+ 	
+ 	background: purple; /* background was added */
+	height: 250px; /* height is mentioned */
+	width: 100%;/* width was set */
+	color: white; /* color was added */
+	background-color: rgba(35,30,33,10);/* background color was added */
+    opacity: .8; /*it makes visible background*/
+
+}
+
+
+@media (max-width:800px ){
+
+	
+	.menu{
+		margin-top: 10px;
+		margin-left: 0px;
+	}
+	a:hover{
+		border:none;
+		opacity: 0.5;
+		transition: 0.5s;
+
+	}
+	nav ul{
+		padding-left: 0; /* padding is added */
+	}
+	nav ul li a{
+		padding: 10px; /* padding is added */
+
+
+	}
+
+}
+@media (max-width:700px ){
+
+header{
+	display: block;
+}
+nav ul{
+	display: block;
+	margin-left: 50px; /* margin was added */
+
+	
+}
+}
+@media (max-width:400px ){
+
+nav ul li a{
+	font-size: 20px;
+		padding: 0px; /* padding is added */
+		margin-right: 0px;
+
+	}
+	
+
+.bishal{
+	 margin-top: 5%;  /* margin was added */
+
+ 	
+ 	background: purple;
+	height: 650px; /* height is mentioned */
+	width: 35%;/* width was set */
+	color: white; /* color was added */
+	background-color: rgba(35,30,33,10);/* background was added */
+    opacity: .8; /*it makes visible background*/
+}
+}
+footer{
+	color: #fff; /* color was added */
+ 	font-size: 25px;
+ 	text-align: center;
+ 	
+ 	margin-top: 50px; /* margin was added */
+
+ 	bottom: 0;
+	opacity: .8; /*it makes visible background*/
+	background-color: #000;/* background was added */
+	padding: 10px; /* padding is added */
+	
+}
+.box1{
+ 	width: 22%;/* width was set */
+ 	padding: 2%;
+	text-align: center;
+ 	margin:100px ; /* margin was added */
+
+ 	margin: 2%; /* margin was added */
+
+ 	color: white; /* color was added */
+ 	background-color: rgba(35,30,33,10);/* background was added */
+    opacity: .8; /*it makes visible background*/
+    border-radius: 10px;
+
+ }
+ .box1-img{
+ 	border-radius: 50%;
+ 	width: 200px;/* width was set */
+ 	height: 200px; /* height is mentioned */
+ }
+ .box1 {
+ 	font-size: 40px;
+ 	text-align: center;
+ 	letter-spacing: 4px;
+ 	font-weight: 100;
+ 	font-family: 'PT Sans Narrow', sans-serif;
+ 	color: darkgray; /* color was added */
+
+ }
+ .mainbox{
+ 	display: flex;/* display flex was added */
+ 	justify-content: space-between;
+ }
+ .box{
+ 	
+ 	width: 22%;/* width was set */
+ 	padding: 1%; /* padding is added */
+ 	text-align: center;
+ 	margin:100px ; /* margin was added */
+
+ 	margin: 2%; /* margin was added */
+
+ 	color: white; /* color was added */
+ 	background-color: rgba(35,30,33,10);/* background was added */
+ 	opacity: .8; /*it makes visible background*/
+ 	border-radius: 10px;
+ }
+ .box-img{
+ 	border-radius: 50%;
+ 	width: 200px;/* width was set */
+ 	height: 200px; /* height is mentioned */
+ 	
+ }
+ .box h1{
+ 	font-size: 40px;
+ 	letter-spacing: 4px; /*space is maintain*/
+ 	font-weight: 100;
+ 	text-align: center;
+ 	font-family: 'PT Sans Narrow', sans-serif;
+ 	color: darkgray; /* color was added */
+ }
+
+ .social {
+ 	
+ 	justify-content: center;
+ 	position: absolute
+ 	flex-direction: right;/* display flex was given direction */
+ 	margin: 500px; /* margin was added */
+
+ 	list-style-type: none;
+ 	margin-left: 500px; /* margin was added */
+
+ 	margin-top: 150px;
+    display:flex;
+
+ }
+ 
+.social ul {
+	list-style-type: none;
+	
+}
+.kcha{
+	margin-top: 450px; /* margin was added */
+
+}
+
+.wow{
+    margin-top: 5%; /* margin was added */
+
+ 	
+ 	background: purple; /* bakground was added */
+	height: 650px; /* height is mentioned */
+	width: 35%;/* width was set */
+	color: white; /* color was added */
+	background-color: rgba(35,30,33,10);  /* bakground was added */
+    opacity: .8; /*it makes visible background*/
+}
+.wow1{
+    margin-top: 5%; /* margin was added */
+
+ 	
+ 	background: purple; /* color was added */
+	height: 650px; /* height is mentioned */
+	width: 35%;  /* width was set */
+	color: white; /* color was added */
+	background-color: rgba(35,30,33,10);  /* bakground was added */
+    opacity: .8; /*it makes visible background*/
+}
+.nextbox{
+ 	display: flex; /* display flex was added */
+ 	justify-content: space-between; /*space is maintain*/
+ }
+ .ramro{
+ 	display: flex; /* display flex was added */
+ 	justify-content: space-between; /* system was added */
+ 	text-align: center;/* txt was aligned */
+ }
